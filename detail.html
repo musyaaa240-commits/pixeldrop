@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="Content-Security-Policy"
+    content="default-src 'self'; script-src 'self' 'unsafe-inline' https://cdnjs.cloudflare.com; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; font-src 'self'; connect-src 'none'; object-src 'none'; base-uri 'self';" />
+  <title>PixelDrop</title>
+  <meta name="robots" content="index, follow" />
+  <meta name="author" content="PixelDrop" />
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='6' fill='%2322c55e'/><rect x='8' y='8' width='6' height='6' fill='%23fff'/><rect x='18' y='8' width='6' height='6' fill='%23fff'/><rect x='8' y='18' width='6' height='6' fill='%23fff'/><rect x='18' y='18' width='6' height='6' fill='%2316a34a'/></svg>" />
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"
+    integrity="sha512-CNgIRecGo7nphbeZ04Sc13ka07paqdeTu0WR1IM4kNcpmBAUSHSre5NkDHgFCmTG8K2B+IljYNHyJUeMT4Smg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/canvas-confetti/1.9.2/confetti.browser.min.js"
+    crossorigin="anonymous" referrerpolicy="no-referrer" defer></script>
+</head>
+<body>
+  <div aria-hidden="true" style="position:absolute;left:-9999px;top:-9999px;visibility:hidden;">
+    <input type="text" name="website" tabindex="-1" autocomplete="off" />
+  </div>
+
+  <header>
+    <div class="container">
+      <div class="header-inner">
+        <a href="index.html" class="logo" aria-label="PixelDrop Home">
+          <div class="logo-pixel" aria-hidden="true">
+            <div></div><div></div><div></div><div></div>
+            <div></div><div></div><div></div><div></div>
+            <div></div><div></div><div></div><div></div>
+            <div></div><div></div><div></div><div></div>
+          </div>
+          Pixel<span class="accent">Drop</span>
+        </a>
+        <div class="header-actions">
+          <button id="theme-toggle" aria-label="Toggle theme">
+            <span id="theme-icon">🌙</span>
+            <span id="theme-label">Dark</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <div id="detail-loading" class="detail-wrapper">
+      <div class="skeleton" style="height:16px;width:40%;margin-bottom:28px;border-radius:8px;"></div>
+      <div class="skeleton" style="width:100%;aspect-ratio:16/9;border-radius:20px;margin-bottom:28px;"></div>
+      <div class="skeleton" style="height:28px;width:70%;margin-bottom:16px;border-radius:8px;"></div>
+      <div class="skeleton" style="height:14px;width:100%;margin-bottom:10px;border-radius:6px;"></div>
+      <div class="skeleton" style="height:14px;width:85%;border-radius:6px;"></div>
+    </div>
+    <div id="detail-content" style="display:none;"></div>
+    <div id="detail-notfound" style="display:none;">
+      <div class="page-404">
+        <div class="char-404" aria-hidden="true">🧱</div>
+        <div class="num-404">404</div>
+        <p class="text-404">The content you're looking for doesn't exist or has been removed.</p>
+        <a href="index.html" class="btn btn-primary">← Back to Home</a>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>© PixelDrop</p>
+      <div style="margin-top:10px;display:flex;gap:16px;justify-content:center;flex-wrap:wrap;">
+        <a href="about.html" style="color:var(--text-muted);font-size:0.7rem;">About</a>
+        <a href="disclaimer.html" style="color:var(--text-muted);font-size:0.7rem;">Disclaimer</a>
+      </div>
+    </div>
+  </footer>
+
+  <button class="back-to-top" id="back-to-top" aria-label="Back to top">
+    <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M18 15l-6-6-6 6"/></svg>
+  </button>
+
+  <div class="toast-container" id="toast-container" aria-live="polite" aria-atomic="true"></div>
+
+  <nav class="bottom-nav" aria-label="Bottom navigation">
+    <div class="container">
+      <div class="bottom-nav-inner">
+        <a href="index.html" class="bottom-nav-btn">
+          <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M3 12L12 3l9 9M4 10v10a1 1 0 001 1h4v-6h6v6h4a1 1 0 001-1V10"/></svg>
+          Home
+        </a>
+        <a href="index.html" class="bottom-nav-btn">
+          <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+          Search
+        </a>
+        <button class="bottom-nav-btn" id="detail-bookmark-nav">
+          <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M19 21l-7-5-7 5V5a2 2 0 012-2h10a2 2 0 012 2z"/></svg>
+          Save
+        </button>
+        <button class="bottom-nav-btn" id="nav-theme-btn">
+          <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg>
+          Theme
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <script src="data.js"></script>
+  <script src="detail.js"></script>
+</body>
+</html>

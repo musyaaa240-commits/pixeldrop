@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="Content-Security-Policy"
+    content="default-src 'self'; script-src 'self' 'unsafe-inline' https://cdnjs.cloudflare.com; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; font-src 'self'; connect-src 'none'; object-src 'none'; base-uri 'self';" />
+
+  <title>PixelDrop — Download Best MCPE Texture Packs & Addons</title>
+  <meta name="description" content="Download Minecraft Pocket Edition (MCPE) texture packs and addons for free. Best collection, latest updates, direct MediaFire links." />
+  <meta name="robots" content="index, follow" />
+  <meta name="author" content="PixelDrop" />
+  <link rel="canonical" href="https://musyaaa240-commits.github.io/pixeldrop/" />
+
+  <meta property="og:type"        content="website" />
+  <meta property="og:title"       content="PixelDrop — Download MCPE Texture Packs & Addons" />
+  <meta property="og:description" content="Download MCPE texture packs and addons for free. Best collection, latest updates." />
+  <meta property="og:image"       content="https://musyaaa240-commits.github.io/pixeldrop/images/og-cover.jpg" />
+  <meta property="og:url"         content="https://musyaaa240-commits.github.io/pixeldrop/" />
+  <meta property="og:site_name"   content="PixelDrop" />
+  <meta name="twitter:card"        content="summary_large_image" />
+  <meta name="twitter:title"       content="PixelDrop — Download MCPE Texture Packs & Addons" />
+  <meta name="twitter:description" content="Download MCPE texture packs and addons for free." />
+  <meta name="twitter:image"       content="https://musyaaa240-commits.github.io/pixeldrop/images/og-cover.jpg" />
+
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"WebSite","name":"PixelDrop","url":"https://musyaaa240-commits.github.io/pixeldrop/","description":"Download MCPE texture packs and addons for free.","potentialAction":{"@type":"SearchAction","target":"https://musyaaa240-commits.github.io/pixeldrop/?search={search_term_string}","query-input":"required name=search_term_string"}}
+  </script>
+
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='6' fill='%2322c55e'/><rect x='8' y='8' width='6' height='6' fill='%23fff'/><rect x='18' y='8' width='6' height='6' fill='%23fff'/><rect x='8' y='18' width='6' height='6' fill='%23fff'/><rect x='18' y='18' width='6' height='6' fill='%2316a34a'/></svg>" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div aria-hidden="true" style="position:absolute;left:-9999px;top:-9999px;visibility:hidden;">
+    <input type="text" name="website" tabindex="-1" autocomplete="off" />
+  </div>
+
+  <header>
+    <div class="container">
+      <div class="header-inner">
+        <a href="index.html" class="logo" aria-label="PixelDrop Home">
+          <div class="logo-pixel" aria-hidden="true">
+            <div></div><div></div><div></div><div></div>
+            <div></div><div></div><div></div><div></div>
+            <div></div><div></div><div></div><div></div>
+            <div></div><div></div><div></div><div></div>
+          </div>
+          Pixel<span class="accent">Drop</span>
+        </a>
+        <div class="header-actions">
+          <button id="theme-toggle" aria-label="Toggle theme">
+            <span id="theme-icon">🌙</span>
+            <span id="theme-label">Dark</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <div class="container">
+
+      <section class="hero fade-in" aria-label="Hero">
+        <h1 class="hero-title">
+          Download <span class="accent">Texture</span> &<br />
+          <span class="accent">Addon</span> MCPE Free
+        </h1>
+        <p class="hero-sub">The best collection for Minecraft Pocket Edition — fast, free, direct.</p>
+        <div class="hero-actions">
+          <button class="btn btn-primary" onclick="document.getElementById('content-section').scrollIntoView({behavior:'smooth'})">
+            <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M19 9l-7 7-7-7"/></svg>
+            Browse Content
+          </button>
+          <button class="btn btn-secondary" id="surprise-btn">🎲 Surprise Me</button>
+        </div>
+      </section>
+
+      <div class="ad-slot" role="complementary"><span>[ Ad ]</span></div>
+
+      <div class="milestone-banner" id="milestone-banner" style="display:none;" role="status" aria-live="polite">
+        🎉 <strong>100+ Content Available!</strong> — PixelDrop keeps growing, thanks for the support!
+      </div>
+
+      <section class="controls fade-in" aria-label="Filters and search">
+        <div class="controls-top">
+          <div class="search-wrapper">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+            <input type="search" id="search-input" placeholder="Search texture packs, addons..." autocomplete="off" spellcheck="false" aria-label="Search content" />
+          </div>
+          <select class="select-styled" id="sort-select" aria-label="Sort content">
+            <option value="newest">Newest</option>
+            <option value="az">A - Z</option>
+            <option value="category">Category</option>
+          </select>
+          <select class="select-styled" id="version-select" aria-label="Filter by MCPE version">
+            <option value="all">All Versions</option>
+            <option value="1.21">1.21</option>
+            <option value="1.20">1.20</option>
+            <option value="1.19">1.19</option>
+          </select>
+        </div>
+        <div class="controls-bottom filter-bar" role="group" aria-label="Category filter">
+          <button class="filter-btn active" data-cat="all"     aria-pressed="true">All</button>
+          <button class="filter-btn"         data-cat="texture" aria-pressed="false">Texture Pack</button>
+          <button class="filter-btn"         data-cat="addon"   aria-pressed="false">Addon</button>
+        </div>
+        <div class="tags-scroll" id="tags-container" role="group" aria-label="Tag filters"></div>
+      </section>
+
+      <section id="recently-section" style="display:none;margin-bottom:40px;" class="fade-in">
+        <div class="section-header">
+          <h2 class="section-title">Recently Viewed</h2>
+          <button class="btn btn-ghost" id="clear-recent-btn" style="font-size:0.7rem;">Clear</button>
+        </div>
+        <div class="content-grid" id="recently-grid"></div>
+      </section>
+
+      <section id="bookmark-section" style="display:none;margin-bottom:40px;" class="fade-in">
+        <div class="section-header">
+          <h2 class="section-title">📌 Saved</h2>
+          <button class="btn btn-ghost" id="clear-bookmark-btn" style="font-size:0.7rem;">Clear All</button>
+        </div>
+        <div class="content-grid" id="bookmark-grid"></div>
+      </section>
+
+      <section id="recommend-section" style="display:none;margin-bottom:40px;" class="fade-in">
+        <div class="section-header">
+          <h2 class="section-title">✨ Recommended For You</h2>
+        </div>
+        <div class="content-grid" id="recommend-grid"></div>
+      </section>
+
+      <section id="content-section" class="fade-in" aria-label="Content list">
+        <div class="section-header">
+          <h2 class="section-title" id="results-title">All Content</h2>
+          <span style="font-size:0.72rem;color:var(--text-muted);" id="results-count" aria-live="polite"></span>
+        </div>
+        <div class="content-grid" id="skeleton-grid" aria-hidden="true"></div>
+        <div class="content-grid" id="main-grid" role="list"></div>
+        <div id="empty-state" style="display:none;" role="status" aria-live="polite">
+          <div class="empty-state">
+            <span class="minecraft-char" aria-hidden="true">🧱</span>
+            <h3>Nothing found!</h3>
+            <p>Try different keywords or reset filters.</p>
+            <br/>
+            <button class="btn btn-secondary" onclick="resetFilters()" style="margin-top:8px;">Reset Filters</button>
+          </div>
+        </div>
+        <div class="load-more-wrapper" id="load-more-wrapper" style="display:none;">
+          <button class="btn btn-secondary" id="load-more-btn">
+            <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M19 9l-7 7-7-7"/></svg>
+            Load More
+          </button>
+        </div>
+      </section>
+
+      <div class="ad-slot" role="complementary" style="margin-top:32px;"><span>[ Ad ]</span></div>
+
+    </div>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>© PixelDrop</p>
+      <div style="margin-top:10px;display:flex;gap:16px;justify-content:center;flex-wrap:wrap;">
+        <a href="about.html" style="color:var(--text-muted);font-size:0.7rem;">About</a>
+        <a href="disclaimer.html" style="color:var(--text-muted);font-size:0.7rem;">Disclaimer</a>
+      </div>
+    </div>
+  </footer>
+
+  <button class="back-to-top" id="back-to-top" aria-label="Back to top">
+    <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M18 15l-6-6-6 6"/></svg>
+  </button>
+
+  <div class="toast-container" id="toast-container" aria-live="polite" aria-atomic="true"></div>
+
+  <nav class="bottom-nav" aria-label="Bottom navigation">
+    <div class="container">
+      <div class="bottom-nav-inner">
+        <a href="index.html" class="bottom-nav-btn active" aria-current="page">
+          <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M3 12L12 3l9 9M4 10v10a1 1 0 001 1h4v-6h6v6h4a1 1 0 001-1V10"/></svg>
+          Home
+        </a>
+        <button class="bottom-nav-btn" onclick="document.getElementById('search-input').focus()">
+          <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+          Search
+        </button>
+        <button class="bottom-nav-btn" id="nav-bookmark-btn">
+          <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M19 21l-7-5-7 5V5a2 2 0 012-2h10a2 2 0 012 2z"/></svg>
+          Saved
+        </button>
+        <button class="bottom-nav-btn" id="nav-theme-btn">
+          <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg>
+          Theme
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

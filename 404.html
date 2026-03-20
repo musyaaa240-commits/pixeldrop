@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self'; connect-src 'none'; object-src 'none';" />
+  <title>404 — Page Not Found | PixelDrop</title>
+  <meta name="robots" content="noindex, nofollow" />
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='6' fill='%2322c55e'/><rect x='8' y='8' width='6' height='6' fill='%23fff'/><rect x='18' y='8' width='6' height='6' fill='%23fff'/><rect x='8' y='18' width='6' height='6' fill='%23fff'/><rect x='18' y='18' width='6' height='6' fill='%2316a34a'/></svg>" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="header-inner">
+        <a href="index.html" class="logo">
+          <div class="logo-pixel" aria-hidden="true"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
+          Pixel<span class="accent">Drop</span>
+        </a>
+        <div class="header-actions">
+          <button id="theme-toggle"><span id="theme-icon">🌙</span><span id="theme-label">Dark</span></button>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main>
+    <div class="page-404">
+      <div class="char-404" aria-hidden="true">🧱</div>
+      <div class="num-404" aria-label="Error 404">404</div>
+      <p class="text-404">Oops! The page you're looking for doesn't exist.<br />The link might be wrong or the page has been moved.</p>
+      <div style="display:flex;gap:12px;flex-wrap:wrap;justify-content:center;">
+        <a href="index.html" class="btn btn-primary">← Back to Home</a>
+        <a href="index.html" class="btn btn-secondary">🔍 Browse Content</a>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <div class="container"><p>© PixelDrop</p></div>
+  </footer>
+  <script>
+    (function(){function lsGet(k,f){try{return JSON.parse(localStorage.getItem(k))??f;}catch{return f;}}function lsSet(k,v){try{localStorage.setItem(k,JSON.stringify(v));}catch{}}function setTheme(t){document.documentElement.setAttribute('data-theme',t);lsSet('pd_theme',t);const i=document.getElementById('theme-icon');const l=document.getElementById('theme-label');if(i)i.textContent=t==='dark'?'🌙':'☀️';if(l)l.textContent=t==='dark'?'Dark':'Light';}setTheme(lsGet('pd_theme','dark'));document.getElementById('theme-toggle').addEventListener('click',()=>{setTheme(document.documentElement.getAttribute('data-theme')==='dark'?'light':'dark');});})();
+  </script>
+</body>
+</html>
