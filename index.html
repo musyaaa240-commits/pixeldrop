@@ -52,8 +52,8 @@
   <main>
     <div class="container">
 
-      <!-- HERO -->
-      <section class="hero fade-in" aria-label="Hero">
+      <!-- HERO — no fade-in so it always shows -->
+      <section class="hero" aria-label="Hero">
         <h1 class="hero-title">
           Download <span class="accent">Texture</span> &<br />
           <span class="accent">Addon</span> MCPE Free
@@ -72,8 +72,8 @@
         🎉 <strong>100+ Content Available!</strong> — PixelDrop keeps growing, thanks for the support!
       </div>
 
-      <!-- SEARCH + FILTER -->
-      <section class="controls fade-in" aria-label="Filters and search">
+      <!-- SEARCH + FILTER — no fade-in so it always shows -->
+      <section class="controls" aria-label="Filters and search">
         <div class="controls-top">
           <div class="search-wrapper">
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
@@ -88,7 +88,7 @@
       </section>
 
       <!-- RECENTLY VIEWED -->
-      <section id="recently-section" style="display:none;margin-bottom:40px;" class="fade-in">
+      <section id="recently-section" style="display:none;margin-bottom:40px;">
         <div class="section-header">
           <h2 class="section-title">Recently Viewed</h2>
           <button class="btn btn-ghost" id="clear-recent-btn" style="font-size:0.7rem;">Clear</button>
@@ -97,7 +97,7 @@
       </section>
 
       <!-- BOOKMARKS -->
-      <section id="bookmark-section" style="display:none;margin-bottom:40px;" class="fade-in">
+      <section id="bookmark-section" style="display:none;margin-bottom:40px;">
         <div class="section-header">
           <h2 class="section-title">📌 Saved</h2>
           <button class="btn btn-ghost" id="clear-bookmark-btn" style="font-size:0.7rem;">Clear All</button>
@@ -106,7 +106,7 @@
       </section>
 
       <!-- RECOMMENDATIONS -->
-      <section id="recommend-section" style="display:none;margin-bottom:40px;" class="fade-in">
+      <section id="recommend-section" style="display:none;margin-bottom:40px;">
         <div class="section-header">
           <h2 class="section-title">✨ Recommended For You</h2>
         </div>
@@ -114,7 +114,7 @@
       </section>
 
       <!-- MAIN GRID -->
-      <section id="content-section" class="fade-in" aria-label="Content list">
+      <section id="content-section" aria-label="Content list">
         <div class="section-header">
           <h2 class="section-title" id="results-title">All Content</h2>
           <span style="font-size:0.72rem;color:var(--text-muted);" id="results-count" aria-live="polite"></span>
