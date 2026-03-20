@@ -16,7 +16,7 @@ const CONTENTS = [
     fileSize: "0.25 Mb",
     downloadTime: "~10 seconds",
     installTime: "~1 minute",
-    downloadUrl: btoa("https://www.mediafire.com/file/zziqvuw1854rh43/carpet_bedrock.mcpack/file"),
+    downloadUrl: "aHR0cHM6Ly93d3cubWVkaWFmaXJlLmNvbS9maWxlL3p6aXF2dXcxODU0cmg0My9jYXJwZXRfYmVkcm9jay5tY3BhY2svZmlsZQ==",
     dateAdded: "2026-03-20",
     lastUpdated: "2026-03-20",
     changelog: [
