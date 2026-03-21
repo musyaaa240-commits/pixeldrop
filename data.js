@@ -4,24 +4,4 @@
  */
 
 window.CONTENTS = [
-  {
-    id: "carpetbedrock",
-    name: "carpet_bedrock",
-    category: "texture",
-    tags: ["Carpet", "Bedrock", "Simple"],
-    thumbnail: "images/carpetbedrock-thumb.jpg",
-    screenshot: "images/carpetbedrock-ss.jpg",
-    description: "anjay test dlu",
-    mcpeVersion: "1.21 - 1.26",
-    fileSize: "0.25 Mb",
-    downloadTime: "~10 seconds",
-    installTime: "~1 minute",
-    downloadUrl: "aHR0cHM6Ly93d3cubWVkaWFmaXJlLmNvbS9maWxlL3p6aXF2dXcxODU0cmg0My9jYXJwZXRfYmVkcm9jay5tY3BhY2svZmlsZQ==",
-    dateAdded: "2026-03-20",
-    lastUpdated: "2026-03-20",
-    changelog: [
-      { version: "v1.0", note: "Initial release" }
-    ],
-    featured: false
-  },
 ];
