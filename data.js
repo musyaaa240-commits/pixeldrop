@@ -5,6 +5,26 @@
 
 window.CONTENTS = [
   {
+    id: "action-stuff-10",
+    name: "Action & Stuff 1.0",
+    category: "texture",
+    tags: [],
+    thumbnail: "images/action-stuff-10-thumb.jpg",
+    screenshot: "images/action-stuff-10-ss.jpg",
+    description: "Download Action & Stuff 1.0",
+    mcpeVersion: "1.21",
+    fileSize: "2 MB",
+    downloadTime: "",
+    installTime: "",
+    downloadUrl: "aHR0cHM6Ly9kbS50ZXJhYm94LmNvbS9zaGFyaW5nL2xpbms/c3VybD1OZVU0bkJfQmRjQnJzTDY0REhWdWdRJmNsZWFyQ2FjaGU9MQ==",
+    dateAdded: "2026-03-26",
+    lastUpdated: "2026-03-26",
+    changelog: [
+      { version: "v1.0", note: "Initial release" }
+    ],
+    featured: false
+  },
+  {
     id: "action-stuff-12",
     name: "Action & Stuff 1.2",
     category: "texture",
