@@ -16,7 +16,7 @@ window.CONTENTS = [
     fileSize: "18 MB",
     downloadTime: "",
     installTime: "",
-    downloadUrl: "aHR0cHM6Ly93d3cubWVkaWFmaXJlLmNvbS9maWxlL3pjNXI1aWJodzkzcHVxOS9BY3Rpb25zK1N0dWZmKzEuNytieStibGFja2NlbGwubWNwYWNrL2ZpbGU=",
+    downloadUrl: "aHR0cHM6Ly9kbS50ZXJhYm94LmNvbS9zaGFyaW5nL2xpbms/c3VybD1hY2dwLVo1UnNIVVVOcVRTS1Izc3NnJmNsZWFyQ2FjaGU9MQ==",
     dateAdded: "2026-03-26",
     lastUpdated: "2026-03-26",
     changelog: [
