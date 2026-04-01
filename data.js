@@ -5,6 +5,26 @@
 
 window.CONTENTS = [
   {
+    id: "ender-rooms",
+    name: "Ender Rooms",
+    category: "texture",
+    tags: [],
+    thumbnail: "images/ender-rooms-thumb.jpg",
+    screenshot: "images/ender-rooms-ss.jpg",
+    description: "Download Ender Rooms FREE",
+    mcpeVersion: "1.21 - 26.0",
+    fileSize: "",
+    downloadTime: "",
+    installTime: "",
+    downloadUrl: "aHR0cHM6Ly8xMDI0dGVyYWJveC5jb20vcy8xb1pLaERUN2xuRjhyenFVaU5lWUg4UQ==",
+    dateAdded: "2026-04-01",
+    lastUpdated: "2026-04-01",
+    changelog: [
+      { version: "v1.0", note: "Initial release" }
+    ],
+    featured: false
+  },
+  {
     id: "minimap",
     name: "Minimap",
     category: "addon",
