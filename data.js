@@ -5,6 +5,26 @@
 
 window.CONTENTS = [
   {
+    id: "minimap",
+    name: "Minimap",
+    category: "addon",
+    tags: [],
+    thumbnail: "images/minimap-thumb.jpg",
+    screenshot: "images/minimap-ss.jpg",
+    description: "Download MiniMap FREE",
+    mcpeVersion: "1.21 - 26.0",
+    fileSize: "",
+    downloadTime: "",
+    installTime: "",
+    downloadUrl: "aHR0cHM6Ly8xMDI0dGVyYWJveC5jb20vcy8xNVRUazVURDc5Qk5ZQzNjZ1BkbkVodw==",
+    dateAdded: "2026-04-01",
+    lastUpdated: "2026-04-01",
+    changelog: [
+      { version: "v1.0", note: "Initial release" }
+    ],
+    featured: false
+  },
+  {
     id: "action-stuff-13",
     name: "Action & Stuff 1.3",
     category: "texture",
