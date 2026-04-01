@@ -27,7 +27,7 @@ window.CONTENTS = [
   {
     id: "ender-rooms",
     name: "Ender Rooms",
-    category: "texture",
+    category: "addon",
     tags: [],
     thumbnail: "images/ender-rooms-thumb.jpg",
     screenshot: "images/ender-rooms-ss.jpg",
