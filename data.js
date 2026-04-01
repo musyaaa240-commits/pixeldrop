@@ -5,6 +5,26 @@
 
 window.CONTENTS = [
   {
+    id: "biome-wardens-add-on",
+    name: "BIOME WARDENS Add-On",
+    category: "texture",
+    tags: [],
+    thumbnail: "images/biome-wardens-add-on-thumb.jpg",
+    screenshot: "images/biome-wardens-add-on-ss.jpg",
+    description: "Download BIOME WARDENS Add-On FREE",
+    mcpeVersion: "1.21 - 26.0",
+    fileSize: "",
+    downloadTime: "",
+    installTime: "",
+    downloadUrl: "aHR0cHM6Ly8xMDI0dGVyYWJveC5jb20vcy8xRF81dll4bWc4Z3EydW1aNG9EUDdXdw==",
+    dateAdded: "2026-04-01",
+    lastUpdated: "2026-04-01",
+    changelog: [
+      { version: "v1.0", note: "Initial release" }
+    ],
+    featured: false
+  },
+  {
     id: "ender-rooms",
     name: "Ender Rooms",
     category: "texture",
