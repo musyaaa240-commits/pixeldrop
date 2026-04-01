@@ -7,7 +7,7 @@ window.CONTENTS = [
   {
     id: "biome-wardens-add-on",
     name: "BIOME WARDENS Add-On",
-    category: "texture",
+    category: "addon",
     tags: [],
     thumbnail: "images/biome-wardens-add-on-thumb.jpg",
     screenshot: "images/biome-wardens-add-on-ss.jpg",
