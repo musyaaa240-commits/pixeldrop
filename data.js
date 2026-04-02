@@ -5,6 +5,26 @@
 
 window.CONTENTS = [
   {
+    id: "cut-the-rope",
+    name: "Cut the Rope",
+    category: "addon",
+    tags: [],
+    thumbnail: "images/cut-the-rope-thumb.jpg",
+    screenshot: "images/cut-the-rope-ss.jpg",
+    description: "Download Cut the Rope FREE",
+    mcpeVersion: "1.21 - 26.0",
+    fileSize: "26 MB",
+    downloadTime: "",
+    installTime: "",
+    downloadUrl: "aHR0cHM6Ly8xMDI0dGVyYWJveC5jb20vcy8xa0FXNkJCUWRNVkw2UnFqb0RST2YyUQ==",
+    dateAdded: "2026-04-02",
+    lastUpdated: "2026-04-02",
+    changelog: [
+      { version: "v1.0", note: "Initial release" }
+    ],
+    featured: false
+  },
+  {
     id: "advanced-blasters-add-on",
     name: "Advanced Blasters Add-On",
     category: "addon",
