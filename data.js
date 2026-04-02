@@ -5,6 +5,26 @@
 
 window.CONTENTS = [
   {
+    id: "advanced-blasters-add-on",
+    name: "Advanced Blasters Add-On",
+    category: "addon",
+    tags: [],
+    thumbnail: "images/advanced-blasters-add-on-thumb.jpg",
+    screenshot: "images/advanced-blasters-add-on-ss.jpg",
+    description: "Download Advanced Blasters Add-On FREE",
+    mcpeVersion: "1.21 - 26.0",
+    fileSize: "19 MB",
+    downloadTime: "",
+    installTime: "",
+    downloadUrl: "aHR0cHM6Ly8xMDI0dGVyYWJveC5jb20vcy8xNXZZcDdHY2U1cTJPOXhodHkwN3Zvdw==",
+    dateAdded: "2026-04-01",
+    lastUpdated: "2026-04-01",
+    changelog: [
+      { version: "v1.0", note: "Initial release" }
+    ],
+    featured: false
+  },
+  {
     id: "visual-effects-add-on",
     name: "Visual Effects Add-On",
     category: "addon",
