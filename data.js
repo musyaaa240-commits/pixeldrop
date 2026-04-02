@@ -7,7 +7,7 @@ window.CONTENTS = [
   {
     id: "visual-effects-add-on",
     name: "Visual Effects Add-On",
-    category: "texture",
+    category: "addon",
     tags: [],
     thumbnail: "images/visual-effects-add-on-thumb.jpg",
     screenshot: "images/visual-effects-add-on-ss.jpg",
