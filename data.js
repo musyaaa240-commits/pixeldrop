@@ -5,6 +5,26 @@
 
 window.CONTENTS = [
   {
+    id: "visual-effects-add-on",
+    name: "Visual Effects Add-On",
+    category: "texture",
+    tags: [],
+    thumbnail: "images/visual-effects-add-on-thumb.jpg",
+    screenshot: "images/visual-effects-add-on-ss.jpg",
+    description: "Downlaod Visual Effects Add-On Free",
+    mcpeVersion: "1.21 - 26.0",
+    fileSize: "15 MB",
+    downloadTime: "",
+    installTime: "",
+    downloadUrl: "aHR0cHM6Ly8xMDI0dGVyYWJveC5jb20vcy8xazVQZEJhNUYxNFIyOGVnaWpzbV84QQ==",
+    dateAdded: "2026-04-01",
+    lastUpdated: "2026-04-01",
+    changelog: [
+      { version: "v1.0", note: "Initial release" }
+    ],
+    featured: false
+  },
+  {
     id: "biome-wardens-add-on",
     name: "BIOME WARDENS Add-On",
     category: "addon",
