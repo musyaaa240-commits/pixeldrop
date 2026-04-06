@@ -38,7 +38,7 @@ window.CONTENTS = [
     installTime: "",
     downloadUrl: "aHR0cHM6Ly8xMDI0dGVyYWJveC5jb20vcy8xa0FXNkJCUWRNVkw2UnFqb0RST2YyUQ==",
     dateAdded: "2026-04-02",
-    lastUpdated: "2026-04-02",
+    lastUpdated: "2026-04-06",
     changelog: [
       { version: "v1.0", note: "Initial release" }
     ],
