@@ -5,6 +5,26 @@
 
 window.CONTENTS = [
   {
+    id: "dungeons-add-on",
+    name: "Dungeons Add-On",
+    category: "addon",
+    tags: [],
+    thumbnail: "images/dungeons-add-on-thumb.jpeg",
+    screenshot: "images/dungeons-add-on-ss.jpg",
+    description: "Download Dungeons Add-On FREE",
+    mcpeVersion: "1.21 - 26.0",
+    fileSize: "200 MB",
+    downloadTime: "",
+    installTime: "",
+    downloadUrl: "aHR0cHM6Ly8xMDI0dGVyYWJveC5jb20vcy8xYnJvY0dueEtSUzVYWnhMUjBLQ2NLdw==",
+    dateAdded: "2026-04-06",
+    lastUpdated: "2026-04-06",
+    changelog: [
+      { version: "v1.0", note: "Initial release" }
+    ],
+    featured: false
+  },
+  {
     id: "cut-the-rope",
     name: "Cut the Rope",
     category: "addon",
