@@ -5,6 +5,26 @@
 
 window.CONTENTS = [
   {
+    id: "actions-stuff-110",
+    name: "Actions & Stuff 1.10",
+    category: "addon",
+    tags: [],
+    thumbnail: "images/actions-stuff-110-thumb.jpeg",
+    screenshot: "images/actions-stuff-110-ss.jpeg",
+    description: "DOWNLOAD Actions & Stuff 1.10 FREE",
+    mcpeVersion: "1.21 - 26.1",
+    fileSize: "30 MB",
+    downloadTime: "",
+    installTime: "",
+    downloadUrl: "aHR0cHM6Ly8xMDI0dGVyYWJveC5jb20vcy8xdWhBSGNOQ2luV3pWWHJ5QVF3RzB6Zw==",
+    dateAdded: "2026-04-14",
+    lastUpdated: "2026-04-14",
+    changelog: [
+      { version: "v1.0", note: "Initial release" }
+    ],
+    featured: false
+  },
+  {
     id: "dungeons-add-on",
     name: "Dungeons Add-On",
     category: "addon",
